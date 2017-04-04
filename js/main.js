@@ -15,3 +15,12 @@ function clickLink() {
           document.getElementById("clicks").innerHTML = contador;
       }
 }
+
+function enviarMensaje(){
+var tweet=document.getElementById("contenedorMensajes").value;
+var remitente=document.getElementById("remitente").value;
+
+console.log(tweet);
+console.log(remitente);
+
+}
