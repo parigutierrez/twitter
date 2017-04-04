@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="#" method="post" onClick ="clickLink();">
+    <label>Contador de clicks:</label>
+    <span id="clicks">0</span>
+    <h1>Twitter</h1>
+    <textarea id="contenedorMensajes" name="contenedor" rows="10" cols="120" maxlength="140" placeholder="Escribe aquí tu mensaje" onKeyDown="cuenta()" onKeyUp="cuenta()" ></textarea>
+    <label>De:</label>
+    <input id="remitente">
+    <input type="text" id = "contadorCaracteres" name="contador" size=3>
+    <label style="font-size:12px">/140</label>
+    <button type="button" id= "enviar">Enviar</button>
+    <hr>
+    <h3>Tweet Stories</h3>
+    <div id="contenedorPosts"></div>
+    </form>
+    <script src="js/main.js"></script>
+  </body>
+</html>
